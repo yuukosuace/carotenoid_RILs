@@ -8,3 +8,9 @@ Data format：
 loci: Two columns, the first column is the marker name, and the second column is the corresponding phenotype.
 phe: A phenotype matrix where each row represents the phenotype values for each inbred line, and each column represents a specific phenotype value across different inbred lines.
 geo: A genotype matrix where each row represents an inbred line, and each column represents a marker.
+
+## total_additive_PVE.R
+Calculate the Phenotypic Variance Explained (PVE) by total additive marker
+
+## epistatic_PVE.R
+Identify significant epistatic effects and calculate the Phenotypic Variance Explained (PVE) for each epistatic effect.
